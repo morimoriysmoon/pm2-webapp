@@ -15,7 +15,7 @@ const ProcessToolbox = () => {
   return (
     <BoxWrapper>
       <Stack direction="row-reverse" justifyContent="flex-start" alignItems="flex-start" spacing={1}>
-        <Button variant="contained" size="large">
+        <Button variant="contained" size="large" disabled={true}>
           {'Edit Ecosystem'}
         </Button>
         <Button

@@ -239,7 +239,7 @@ const ProcessPanel = (props) => {
             <Stack spacing={1} sx={{ mt: '3px' }}>
               <ActionButton title={'Restart'} icon={<ReplayIcon />} onClick={handleRestart} />
               <ActionButton title={'Log'} icon={<ArticleIcon />} onClick={handleLog} />
-              <ActionButton title={'Update'} icon={<SecurityUpdateIcon />} onClick={handleLog} />
+              <ActionButton title={'Update'} icon={<SecurityUpdateIcon />} onClick={handleLog} disabled={true} />
               <ActionButton title={'Stop'} icon={<DoNotDisturbAltIcon />} onClick={handleStop} disabled={!running} />
               <ActionButton title={'Delete'} icon={<DeleteIcon />} onClick={handleDelete} color={'error'} />
             </Stack>
