@@ -15,6 +15,6 @@
 
 ## How to run
 
-- yarn install
-- nodemon server.js
+- yarn install --network-timeout 1000000
+- ./node_modules/.bin/nodemon server.js
 - visit to http://localhost:3000 with your favorite browser
